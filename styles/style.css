@@ -1,0 +1,288 @@
+
+.azeret-mono{
+  font-family: "Azeret Mono", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+        "wdth" 100;
+}
+
+
+
+/* nav bar style */
+.header{
+    margin-bottom: 74px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    gap: 768px;
+    align-items: center;
+}
+.nav-title{
+    font-weight: bolder;
+    font-size: 28px;
+}
+.nav-btn{
+    width: 244px;
+    height: 57px;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 900;
+    color: #0D1321;
+    border-radius: 8px;
+}
+
+/* Hero section */
+.hero-section{
+    background-image: url("../assets/Hero-bg.png");
+    display: flex;
+    flex-direction: column;
+    padding: 26px 221px 45px 221px;
+    text-align: center;
+}
+
+.hero-title{
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.hero-description{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.hero-btn{
+    width: 244px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 21px 24px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+
+/* why web development section */
+
+.web-title{
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.web-section{
+    margin: 0px 150px 90px 150px;
+    padding: 80px 97px;
+    border: 1px solid black;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.02);
+}
+
+.web-start{
+    text-align: center;
+}
+
+.web-card{
+    display: flex;
+    flex-direction: row;
+    padding: 48px;
+    align-items: center;
+    justify-content: space-between;
+    /* background-image: linear-gradient(to right, white , rgba(13, 19, 33, 0.02)); */
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(13, 19, 33, 0));
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.web-card-2{
+    background-image: linear-gradient(to left, white , rgba(13, 19, 33, 0));
+}
+
+.webcard-container{
+    width: 477px;
+    /* margin-bottom: 48px; */
+}
+
+.webcard-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(13, 19, 33, 0.7);
+    margin-bottom: 35px;
+}
+
+.card-btn{
+    width: 177px;
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: transparent;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+
+/* inspiration section */
+.inspiration-section{
+    margin: 0px 150px 90px 150px;
+    border-radius: 16px;
+}
+
+.inspire-des{
+    width: 852px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ins-div{
+    margin-bottom: 48px;
+}
+
+.inspiration-video{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin: 0 auto;
+    margin: auto 0;
+    text-align: center;
+    padding: 26px;
+}
+
+.inspiration-video iframe{
+    border-radius: 16px;
+}
+
+/* Target section */
+.target-section{
+    margin: 0px 150px 90px 150px;
+}
+
+.target-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.tar-card-1{
+    background-color: rgba(255, 76, 30, 0.05);
+    text-align: left;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.tar-card-2{
+    background-color: rgba(0, 76, 232, 0.05);
+    text-align: left;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.tar-card-3{
+    background-color: rgba(255, 221, 0, 0.107);
+    text-align: left;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.tar-card-title{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.tar-card-des{
+    font-weight: 300;
+    font-size: 16px;
+}
+.target-anch{
+    font-weight: bold;
+    color: black;
+}
+
+/* Next target section */
+
+.next-target-section{
+    margin: 0px 150px 90px 150px;
+}
+
+.next-target{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    padding: 40px;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.next-target-container{
+    text-align: left;
+}
+
+
+
+/* footer support section */
+.support-section{
+    margin: 0px 150px 90px 150px;
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.345), rgba(0, 0, 0, 0.532)), url("../assets/handshake.jpg");
+    border-radius: 16px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.support-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.support-des{
+    width: 606px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.496);
+}
+
+.support{
+    padding: 64px;
+}
+
+.input-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 64px;
+}
+
+.input{
+    width: 548px;
+    height: 57px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(13, 19, 33, 0.4);
+    padding-left: 16px;
+    border: none;
+}
+.submit-btn{
+    width: 120px;
+    background-color: white;
+    display: flex;
+    font-weight: 800;
+    font-size: 20px;
+    align-items: center;
+   justify-content: center;
+   border-radius: 8px;
+}
+
+/* footer section */
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 32px 142px;
+    background-color: rgba(13, 19, 33, 0.03);
+    align-items: center;
+    /* justify-content: center; */
+ 
+}
